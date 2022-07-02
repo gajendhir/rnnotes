@@ -2,13 +2,14 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Choice of Editor
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+There are a host of configurable editors out there. For me, [Visual Studio Code](https://code.visualstudio.com/) by Microsoft was the clear winner.
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+It is highly customizable with a plethora of extensions which make it very friendly, powerful and alive. I like the way the editor responds to different parts of the code and errors / mistakes.
+
+I use Visual Studio Code (a.k.a. VSCode or Code) for editing and testing all my Javascript, Python, JSON, React and React-Native code. 
+
 
 ## Create your first React Page
 

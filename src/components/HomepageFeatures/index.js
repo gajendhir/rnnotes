@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Getting Started',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Getting started with setting up the development environment. Editor, extensions, packages, et al.
+        Brush up on these technologies.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Start Development',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Start coding. Functional and Class Components. 
+        Select from the many packages are available on the open-source platforms.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Dive Deeper',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Javascript - ES6 and React - is all you need to get started. 
+        If you want to dive deeper Native code - Java for Android and Objective C++ for IOS.
       </>
     ),
   },
