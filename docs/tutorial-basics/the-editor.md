@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Choice of Editor
+# Editor and Extensions
+
+## Visual Studio Code
 
 There are a host of configurable editors out there. For me, [Visual Studio Code](https://code.visualstudio.com/) by Microsoft was the clear winner.
 
@@ -10,34 +12,17 @@ It is highly customizable with a plethora of extensions which make it very frien
 
 I use Visual Studio Code (a.k.a. VSCode or Code) for editing and testing all my Javascript, Python, JSON, React and React-Native code.
 
-## Create your first React Page
+## Extensions for React-Native
 
-Create a file at `src/pages/my-react-page.js`:
+VSCode was created with extensibility in mind and almost every part of it can be customized. Plenty of extensions are available that enable linting and debugging of react-native codes.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+I have installed some extensions to make working with react-native easier...
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+* React Native Tools by Microsoft
+* ES7+ React/Redux/React-Native snippets by dsznajder
+* ESLint by Microsoft
+* Auto Complete Tag by Jun Han
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+Some other extension that I generally have added to my VS Code are...
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+* Material Icon Theme

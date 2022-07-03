@@ -2,8 +2,9 @@
 sidebar_position: 2
 ---
 
-# [Expo CLI](https://expo.dev)
+# Expo Cli
 
+[Expo CLI](https://expo.dev)
 :::note
 
 All of the services by Expo are not free - there is a price tag.
@@ -38,3 +39,7 @@ instead of npm start you could also type
 ```bash
 expo start
 ```
+
+:::note
+In this website, beyond this, the discussions on react-native will be centered around the ```react-native-cli```.
+:::

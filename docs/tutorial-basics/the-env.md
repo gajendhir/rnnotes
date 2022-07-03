@@ -12,7 +12,7 @@ sidebar_position: 1
 
 To start serious app development work, you will need either ```expo-cli``` or ```react-native-cli```.
 
-### Node
+## Node
 
 Both Expo CLI and React-Native-CLI require node on your computer. So download the Installer file depending on your OS and installed it.
 
@@ -28,11 +28,11 @@ My installation in Windows was quick and simple.
 
 I chose to use the MSI installer.
 
-### Package Managers
+## Package Managers
 
 You will require a good Package Manager to work with the various packages in your react-native projects. In fact, package managers are required for any node based projects to handle the node-modules that will be used.
 
-#### npm
+### npm
 
 [**npm** by npmjs.com](https://www.npmjs.com/) is the standard package manager for Node.js. You may want to upgrade to the latest version of npm.
 
@@ -42,7 +42,7 @@ npm install -g npm@latest
 
 We shall discuss more on how to use the npm cli commands. [Click Here!](the-npm.md) to jump to NPM page.
 
-#### yarn
+### yarn
 
 [yarn](https://yarnpkg.com) and [pnpm](https://pnpm.io) are alternatives to the npm cli. I have been using ```yarn``` for sometime now.
 
@@ -56,11 +56,3 @@ to upgrade to the latest stable version of yarn...
 ```bash
 yarn set version stable
 ```
-
-### Android Studio and JDK
-
-I was interested in getting Android apps and I already had Android Studio up and running on my system.
-
-Android Studio is Android's official IDE and can be downloaded from [developer.android.com](https://developer.android.com/studio/index.html).
-
-A copy of the latest OpenJDK comes bundled with Android Studio.
