@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Editor and Extensions
@@ -25,4 +25,7 @@ I have installed some extensions to make working with react-native easier...
 
 Some other extension that I generally have added to my VS Code are...
 
-* Material Icon Theme
+* vscode-icons by VSCode Icons Team
+* Color Highlight by Sergii N
+
+There is a huge list of extensions to select from. If you are up to it, VSCode comes with an [Extension API](https://code.visualstudio.com/api), that you can use to create your own extension.
