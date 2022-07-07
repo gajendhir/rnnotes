@@ -18,14 +18,19 @@ VSCode was created with extensibility in mind and almost every part of it can be
 
 I have installed some extensions to make working with react-native easier...
 
-* React Native Tools by Microsoft
-* ES7+ React/Redux/React-Native snippets by dsznajder
-* ESLint by Microsoft
-* Auto Complete Tag by Jun Han
+* **React Native Tools** by Microsoft
+* **ES7+ React/Redux/React-Native snippets** by dsznajder
+* **ESLint** by Microsoft
+* **Auto Complete Tag** by Jun Han
 
-Some other extension that I generally have added to my VS Code are...
+Some other extension that I have on my VS Code are...
 
-* vscode-icons by VSCode Icons Team
-* Color Highlight by Sergii N
+* **vscode-icons** by VSCode Icons Team
+* **Color Highlight** by Sergii N
+
+For, my Python projects I have...
+
+* **Python** from Microsoft
+* **Pylance** from Microsoft
 
 There is a huge list of extensions to select from. If you are up to it, VSCode comes with an [Extension API](https://code.visualstudio.com/api), that you can use to create your own extension.
