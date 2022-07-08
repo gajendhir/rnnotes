@@ -63,4 +63,4 @@ yarn set version stable
 
 ## Install the CLI
 
-Now you will need [expo-cli](expo-cli.md) or [react-native-cli](rn-cli.md) to proceed.
+Now you will need [expo-cli](expo-cli.md) or [react-native-cli](rn-cli.md) to proceed. I use the [react-native-cli](rn-cli.md) and that is the focus of discussion here.

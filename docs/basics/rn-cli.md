@@ -6,7 +6,7 @@ sidebar_position: 3
 
 [React-Native CLI](https://reactnative.dev)
 
-To get started with ```react-native-cli``` you require to have the XCode or [Android Studio](the-studio) setup on your system.
+To get started with ```react-native-cli``` you require to have the XCode or [Android Studio](#android-studio) setup on your system.
 
 To setup react-native-cli on your computer
 
@@ -73,3 +73,7 @@ To the PATH variable add the path of...
 Some software automatically set these environment variables at the time of installation. So, if you find any of these variables already existing just ensure their values point to the right places.
 
 :::
+
+## The Editor
+
+Finally, you need to prepare your [editor or IDE](the-editor.md) for react-native. 
