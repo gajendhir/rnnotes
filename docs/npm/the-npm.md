@@ -28,10 +28,10 @@ The npm command line client is installed alongwith [Node.js](../basics/the-env#n
 
 You need a package manager for managing the packages that are included into your react-native project.
 
-## Package Manager
+## Package Management
 
-The npm system uses ```package.json``` file that holds the information about your project.
-Along with all the information about your project, this is files where ```npm``` stores the names and versions of the packages being used in your project.
+The npm system uses `package.json` file that holds the information about your project.
+Along with all the information about your project, this is files where `npm` stores the names and versions of the packages being used in your project.
 
 ```json title="structure of a typical package.json"
 {
@@ -63,58 +63,28 @@ Along with all the information about your project, this is files where ```npm```
     },
     ...
     "engines" : {
-        ...
+    ...
     }
     ...
 }
 ```
 
-The names listed in the ```dependencies``` and ```devDependencies``` are the packages used in the project. These pacakages are installed in the ```node_modules``` folder in the project path.
+The names listed in the `dependencies` and `devDependencies` are the packages used in the project. These are the local packages for the project and will be installed in the `node_modules` folder of the project-root.
 
 ### Version of a package
 
-npm packages are versioned using the [Semantic Versioning spec](http://semver.org).
-
-Given a version number *MAJOR.MINOR.PATCH*, increment the:
-
-| Version | Description |
-|---|---|
-|    *MAJOR* | version when you make incompatible API changes |
-|    *MINOR* | version when you add functionality in a backwards compatible manner |
-|    *PATCH* | version when you make backwards compatible bug fixes. |
-
-Additional labels for pre-release and build metadata are available as extensions to the *MAJOR.MINOR.PATCH* format.
-
-### Caret (```^```) Dependencies
-
-Take a look at the ```^``` before the version number in the (dev)dependencies section of the _package.json_ above. Here updates of all future MINOR / PATCH updates will be used, without incrementing the MAJOR version.
-
 ```json
-    "eslint": "^7.32.0",
+    "react-native" : "0.68.2",
 ```
 
-Here npm update will install the highest available version of eslint with MAJOR = 7 and MINOR >= 32``` and any PATCH.
+Given here, the version of `react-native` in the current project is
 
-### Tilde (```~```) Dependencies
+|MAJOR|MINOR|PATCH|
+|:---:|:---:|:---:|
+|0|68|2|
 
-Take a look at the ```~``` before the version number in the (dev)dependencies section of the _package.json_ above. Here updates of only all future PATCH updates will be used, without incrementing the MAJOR.MINOR version.
+You may specify the [range of versions](pkg-ver) that may be installed in the project by `npm` to allow the [`npm update`](npm-cmd#upgrade--update-a-package) to install to the latest version possible.
 
-```json
-    "package": "~3.1.0",
-```
+### Sections of package.json
 
-Here npm update will install the highest available version of eslint with MAJOR = 3 and MINOR = 1 and PATCH >= 0.
-
-### Version Identifiers
-
-|value | description |
-|---|---|
-|~version | Approximately equivalent to version, i.e., only accept new patch versions |
-| ^version | Compatible with version, i.e., accept new minor and patch versions |
-| version | Must match version exactly |
-| >version | Must be greater than version |
-| >=version |	Must be greater than or equal to version |
-| <version | Must be less than version	 |
-| <=version | Must be less than or equal to version |
-| latest | The latest release |
-| * | Any version |
+Visit [package.json](https://docs.npmjs.com/cli/v8/configuring-npm/package-json) - for a detailed discussion on the specifics of the file. This information will be more significant if you decide to develop and publish your own package on the [npm software registry](the-npm#software-registry).

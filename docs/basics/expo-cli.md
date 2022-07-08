@@ -42,5 +42,10 @@ expo start
 ```
 
 :::note
-In this website, beyond this, the discussions on react-native will be centered around the ```react-native-cli```.
+In this website, beyond this, the discussions on react-native will be centered around the [`react-native-cli`](rn-cli).
 :::
+
+## [Expo Snack](https://snack.expo.dev/)
+
+A good place to start with react-native. No setup - No Installs. Just open the side, code in and execute. Just click [Snack](https://snack.expo.dev/) and get started.
+
