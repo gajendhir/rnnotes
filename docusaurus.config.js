@@ -69,7 +69,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '#', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/gajendhir/rnnotes',
             label: 'GitHub',
@@ -109,10 +109,10 @@ const config = {
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
+              {
+                label: 'Blog',
+                to: '#',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/gajendhir/rnnotes',
