@@ -34,7 +34,7 @@ A copy of the latest OpenJDK comes bundled with Android Studio.
 
 :::tip
 
-I start Android Studio periodically and let it update / upgrade itself, gradle and its libraries.
+I start Android Studio periodically and let it update / upgrade itself, gradle and its libraries. Some upgrades require me to start Android Studio as Administrator
 
 :::
 
@@ -70,6 +70,6 @@ To the PATH variable add the path of...
 
 :::note
 
-Some software automatically set these environment variables at the time of installation. So, if you find any of these variables already existing just ensure there values are ok.
+Some software automatically set these environment variables at the time of installation. So, if you find any of these variables already existing just ensure their values point to the right places.
 
 :::

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # npm Commands
@@ -22,7 +22,7 @@ npm install <package-name>
 npm install react-native-screens
 ```
 
-This will install latest version of the package ```react-native-screens```. If you are seeking to install a specific version, the command becomes...
+This will add the latest version of the package ```react-native-screens```. If you are seeking to install a specific version, the command becomes...
 
 ```bash
 npm install react-native-screens@6.0.1
@@ -37,13 +37,68 @@ You add flags to add the package to a different section...
 * ```-O``` or ```--save-optional```. Packages will appear in the ```optionalDependencies```.
 * ```--no-save```. Packages will not appear in any of the ```dependencies```.
 
-## Install Packages Globally
+### Install Packages Globally
 
+To install a package globally -g or --global flag is added to the install command
 
+```bash
+npm install -g npm-check-updates
+```
 
-## Single Package
+:::note
 
+npm is showing this message for some time...
 
+```text
+config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+```
 
-## All from package.json
+:::
 
+### All from package.json
+
+If you do not specify any package name for install, the command will install all the packages listed in ```package.json```.
+
+```bash
+npm install
+```
+
+## Some Simple Commands
+
+### List of Packages
+
+List of packages installed in your project or installed globally.
+```bash
+npm list
+npm list -g
+```
+
+### Uninstall a package
+
+To uninstall a package from your project...
+```bash
+npm uninstall <package-name>
+```
+
+### Upgrade / Update a package
+
+You may use any of these three aliases - ```up```, ```update``` or ```upgrade``` to upgrade a package version.
+```bash
+npm upgrade <package-name>
+```
+or 
+```bash
+npm upgrade <package-name>@latest
+```
+
+Adding the flag -g will update the packages installed globally.
+
+```bash
+npm upgrade -g <package-name>
+```
+
+### Other Commands
+
+There are many commands that allow you to publish and maintain packages on the [npm registry](the-npm#software-registry). 
+
+For a complete list see [CLI Commands](https://docs.npmjs.com/cli/v8/commands). 

@@ -18,6 +18,13 @@ This documentation site started as an exercise to prepare a sort-of check-list o
 
 The idea of putting this up as a web-site is my way of *thanking* the **open-source community**. I hope this tiny contribution of mine help will make lives of others simple.
 
+## Layout
+
+This compilation is spread into sections...
+
+* [Development Environment](basics/the-env.md)
+* [Package Manager](npm/the-npm.md)
+
 ## My Background
 
 I am a computer consultant and lead a small team of software developers. We develop integrated software solutions for our clients. Traditionally, it used LAN based solutions working through all the data handling requirement of the organization. Most of our work used to be done in dotnet with sql-server as the backend.

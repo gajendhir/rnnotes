@@ -60,3 +60,7 @@ to upgrade to the latest stable version of yarn...
 ```bash
 yarn set version stable
 ```
+
+## Install the CLI
+
+Now you will need [expo-cli](expo-cli.md) or [react-native-cli](rn-cli.md) to proceed.
