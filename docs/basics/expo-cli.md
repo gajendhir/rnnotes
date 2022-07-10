@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Expo Cli
@@ -48,4 +48,3 @@ In this website, beyond this, the discussions on react-native will be centered a
 ## [Expo Snack](https://snack.expo.dev/)
 
 A good place to start with react-native. No setup - No Installs. Just open the side, code in and execute. Just click [Snack](https://snack.expo.dev/) and get started.
-

@@ -7,9 +7,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'React Native Notes',
-  tagline: 'Discussion for Startup, Build and Upgrade Issues',
-  url: 'https://rnnotes.dataspec.info',
-  baseUrl: '/',
+  tagline: 'Startup, Build, Release and Upgrade',
+  url: 'https://gajendhir.github.io',
+  baseUrl: '/rn-notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -36,8 +36,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/gajendhir/rnnotes',
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +67,19 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Intro',
+          },          
+          {
+            type: 'doc',
+            docId: 'basics/the-env',
+            position: 'left',
+            label: 'Env',
+          },
+          {
+            type: 'doc',
+            docId: 'basics/npm/the-npm',
+            position: 'left',
+            label: 'npm',
           },
           {
             to: '#', 
@@ -87,7 +99,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],

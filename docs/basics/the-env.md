@@ -14,9 +14,9 @@ My operating system is Windows and I chose to use the MSI installer. The install
 
 ![NodeInstaller](./img/NodeInstall.png)
 
->### Upgrade Node
->
->To upgrade to the latest version of node, simply download the new version from the [nodejs](https://nodejs.org) site and install it. It knows what to do with your previous installation and replaces it with the new version.
+### Upgrade Node
+
+To upgrade to the latest version of node, simply download the new version from the [nodejs](https://nodejs.org) site and install it. It knows what to do with your previous installation and replaces it with the new version.
 
 ## Package Managers
 
@@ -34,7 +34,7 @@ To upgrade to the latest version of npm.
 npm install -g npm@latest
 ```
 
-We shall discuss more on npm later. [Click Here!](../npm/the-npm) to jump to NPM page now.
+[Click Here!](./npm/the-npm) to jump to NPM page now.
 
 ### yarn and pnpm
 

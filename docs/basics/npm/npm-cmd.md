@@ -69,6 +69,7 @@ npm install
 ### List of Packages
 
 To get a list of packages installed in your project or installed globally.
+
 ```bash
 npm list
 npm list -g
@@ -77,6 +78,7 @@ npm list -g
 ### Uninstall a package
 
 To uninstall a package from your project...
+
 ```bash
 npm uninstall <package-name>
 ```
@@ -84,10 +86,13 @@ npm uninstall <package-name>
 ### Upgrade / Update a package
 
 You may use any of these three aliases - `up`, `update` or `upgrade` to upgrade a package version.
+
 ```bash
 npm upgrade <package-name>
 ```
-or 
+
+or
+
 ```bash
 npm upgrade <package-name>@latest
 ```
@@ -105,13 +110,15 @@ npx is used to run a command from a local or remote npm package. for eg.
 ```bash
 npx react-native init proj
 ```
+
 or
+
 ```bash
 npx react-native run-android
 ```
 
 ## Other Commands
 
-There are many commands that allow you to publish and maintain packages on the [npm registry](the-npm#software-registry). 
+There are many commands that allow you to publish and maintain packages on the [npm registry](the-npm#software-registry).
 
-For a complete list see [CLI Commands](https://docs.npmjs.com/cli/v8/commands). 
+For a complete list see [CLI Commands](https://docs.npmjs.com/cli/v8/commands).

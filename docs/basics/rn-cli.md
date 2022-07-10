@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # React-Native CLI
@@ -52,17 +52,18 @@ You should also check out that ANDROID_HOME and JAVA_HOME environment variables 
 
 ![AndroidHome](./img/AndroidHome.png)
 
-```ANDROID_HOME``` should point to the path to your *Android SDK*. 
+```ANDROID_HOME``` should point to the path to your *Android SDK*.
 
 ### Set JAVA_HOME
 
 ![JavaHome](./img/JavaHome.png)
 
-```JAVA_HOME``` should point to the path where the OpenJDK is installed. 
+```JAVA_HOME``` should point to the path where the OpenJDK is installed.
 
 ### Set PATH
 
 To the PATH variable add the path of...
+
 1. the ```platform-tools``` in the Android SDK folder
 2. the ```bin``` folder inside the OpenJDK folder.
 
@@ -76,4 +77,4 @@ Some software automatically set these environment variables at the time of insta
 
 ## The Editor
 
-Finally, you need to prepare your [editor or IDE](the-editor.md) for react-native. 
+Finally, you need to prepare your [editor or IDE](the-editor.md) for react-native.

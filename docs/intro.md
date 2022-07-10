@@ -4,12 +4,19 @@ sidebar_position: 1
 
 # Introduction
 
+The journey to use react-native for app development has its ups and downs. It was easy to create an app using react-native but the real learning effort and still is in upgrading to the newer versions of react-native and building apks and bundles for distribution.
+
+This site started as an effort to compile commands used in the differect situations during the process of developing and releasing android apps using react-native.
+
+I have put this up as a web-site and hope fellow developers in their journey.
+
 ## Objective
 
 This site is to document my experiences and also to share the issues faced during the journey of using **[React-Native](https://reactnative.dev)** to successfully create visually stimulating apps.
 
-This documentation site started as an exercise to prepare a sort-of check-list of some of the tasks we have to carry out...
+This documentation site started as an exercise to prepare a sort-of check-list of some of the tasks we need to carry out...
 
+* to *prepare* a new computer for development using react-native.
 * to *assemble* and *build* *release* and *debug* versions of the apps.
 * to *upgrade* react-native, especially for existing apps.
 * to *select* from the huge collection of react-native packages from the web.
@@ -22,8 +29,8 @@ The idea of putting this up as a web-site is my way of *thanking* the **open-sou
 
 This compilation is spread into sections...
 
-* [Development Environment](basics/the-env.md)
-* [Package Manager](npm/the-npm.md)
+* [Development Environment](basics/the-env)
+* [Package Manager](basics/npm/the-npm)
 
 ## My Background
 

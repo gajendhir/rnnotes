@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Editor and Extensions
@@ -22,11 +22,11 @@ I have installed some extensions to make working with react-native easier...
 * **ES7+ React/Redux/React-Native snippets** by dsznajder
 * **ESLint** by Microsoft
 * **Auto Complete Tag** by Jun Han
+* **Color Highlight** by Sergii N
 
 Some other extension that I have on my VS Code are...
 
 * **vscode-icons** by VSCode Icons Team
-* **Color Highlight** by Sergii N
 
 For, my Python projects I have...
 
