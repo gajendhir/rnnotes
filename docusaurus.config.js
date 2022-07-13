@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/rn-notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icnlogo.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

@@ -4,19 +4,35 @@ sidebar_position: 5
 
 # Editor and Extensions
 
+Technically speaking, you need a simple text editor for development in react-native. But, using a dedicated programming editor changes the way you can manage multi-file projects.
+
 ## Visual Studio Code
 
-There are a host of configurable editors out there. For me, [Visual Studio Code](https://code.visualstudio.com/) by Microsoft was the clear winner.
+There are a host of configurable editors out there. For me, [Visual Studio Code](https://code.visualstudio.com/) by Microsoft was the clear winner. Its strength included...
+
+### Intellisense
+
+It goes beyond syntax highlighting and auto-completes. It is able to provide *smart completes* based on variable types, definitions and imported modules.
+
+### Run and Debug
+
+I am able to run my code from with-in the editor and even debug with break-points, call stacks et al.
+
+### Built-in Git
+
+Git is built-in VsCode making *source code management* (SCM) very easy. I use it all the time to push, pull, sync from GitHub.
+
+### Extensions
 
 It is highly customizable with a plethora of extensions which make it very friendly, powerful and alive. I like the way the editor responds to different parts of the code and errors / mistakes.
 
 I use Visual Studio Code (a.k.a. VSCode or Code) for editing and testing all my Javascript, Python, JSON, React and React-Native code.
 
-## Extensions for React-Native
+## My Extensions for React-Native
 
 VSCode was created with extensibility in mind and almost every part of it can be customized. Plenty of extensions are available that enable linting and debugging of react-native codes.
 
-I have installed some extensions to make working with react-native easier...
+I have installed some extensions for working with react-native...
 
 * **React Native Tools** by Microsoft
 * **ES7+ React/Redux/React-Native snippets** by dsznajder
@@ -27,6 +43,7 @@ I have installed some extensions to make working with react-native easier...
 Some other extension that I have on my VS Code are...
 
 * **vscode-icons** by VSCode Icons Team
+* **Prettier** by Prettier
 
 For, my Python projects I have...
 

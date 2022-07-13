@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-The journey to use react-native for app development has its ups and downs. It was easy to create an app using react-native but the real learning effort and still is in upgrading to the newer versions of react-native and building apks and bundles for distribution.
+My journey to use react-native for app development has its ups and downs. It was easy to create an app using react-native but the real learning effort and still is in upgrading to the newer versions of react-native and building apks and bundles for distribution.
 
 This site started as an effort to compile commands used in the differect situations during the process of developing and releasing android apps using react-native.
 
@@ -31,6 +31,7 @@ This compilation is spread into sections...
 
 * [Development Environment](basics/the-env)
 * [Package Manager](basics/npm/the-npm)
+* [Editor](basics/the-editor)
 
 ## My Background
 

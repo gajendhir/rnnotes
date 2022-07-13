@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started',
+    title: 'Development Environment',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Start coding. Functional and Class Components. 
+        Start coding. Functional and Class Components. Javascript.
         Select from the many packages are available on the open-source platforms.
       </>
     ),

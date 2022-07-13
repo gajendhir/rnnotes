@@ -24,7 +24,7 @@ npm install <package-name>
 * that are downloaded and stored on your computer
 * From github
 
-The npm command line client is installed alongwith [Node.js](../basics/the-env#node).
+The npm command line client is installed alongwith [Node.js](../the-env#node).
 
 You need a package manager for managing the packages that are included into your react-native project.
 

@@ -6,9 +6,9 @@ sidebar_position: 3
 
 [Expo CLI](https://expo.dev)
 
-:::warning
+:::info
 
-All of the services by Expo are not free - there is a price tag.
+All of the services by Expo are not free - Some have a price tag.
 
 :::
 
