@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Installed Globally
 
+Packages installed globally offer CLI-commands to maintain the project and the packages in your project.  
+
 ## react-native-rename
 
 Renames my react-native app with a single command. Works properly with **Android**, suits me because so far my apps are being built for Android. Install the package as `global`.
@@ -21,6 +23,12 @@ react-native-rename <newname> -b <bundleIdentifier>
 ```bash title="Example"
 react-native-rename myapp -b info.dataspec.myapp
 ```
+
+:::info Note
+
+This package does not attempt to properly rename build artifacts such as ios/build or Cocoa Pod installation targets. After renaming your project you should clean, build, and reinstall third party dependencies to get it running properly with the new name.
+
+:::
 
 To learn more about this rename package visit [www.npmjs.com/package/react-native-rename](https://www.npmjs.com/package/react-native-rename)
 
@@ -56,4 +64,10 @@ Commit and Push to your version control before you update any package. Some pack
 
 This will update the versions of the packages listed in the `package.json` with the [version identifier](../basics/npm/pkg-ver) of the latest available update.
 
-**`ncu`** supports a wide choice of `options` to fine-tune the way ncu checks for updates. Check [npm-check-updates documentation](https://www.npmjs.com/package/npm-check-updates) for more details.
+**`ncu`** supports a wide choice of `options` to fine-tune the way ncu checks for updates. Check [npm-check-updates documentation](https://www.npmjs.com/package/npm-check-updates) for more details
+
+:::info
+
+you should clean, build, and reinstall third party dependencies to get it running properly with the new updated packages
+
+::::
