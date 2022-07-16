@@ -28,11 +28,11 @@ It is highly customizable with a plethora of extensions which make it very frien
 
 I use Visual Studio Code (a.k.a. VSCode or Code) for editing and testing all my Javascript, Python, JSON, React and React-Native code.
 
-## My Extensions for React-Native
+## VsCode Extensions that I Use
 
 VSCode was created with extensibility in mind and almost every part of it can be customized. Plenty of extensions are available that enable linting and debugging of react-native codes.
 
-I have installed some extensions for working with react-native...
+I use the following extensions with react-native...
 
 * **React Native Tools** by Microsoft
 * **ES7+ React/Redux/React-Native snippets** by dsznajder
@@ -40,14 +40,14 @@ I have installed some extensions for working with react-native...
 * **Auto Complete Tag** by Jun Han
 * **Color Highlight** by Sergii N
 
-Some other extension that I have on my VS Code are...
-
-* **vscode-icons** by VSCode Icons Team
-* **Prettier** by Prettier
-
 For, my Python projects I have...
 
 * **Python** from Microsoft
 * **Pylance** from Microsoft
 
 There is a huge list of extensions to select from. If you are up to it, VSCode comes with an [Extension API](https://code.visualstudio.com/api), that you can use to create your own extension.
+
+Some other extension that I have VS Code include...
+
+* **vscode-icons** by VSCode Icons Team
+* **Prettier** by Prettier

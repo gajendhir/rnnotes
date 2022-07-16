@@ -34,7 +34,7 @@ To upgrade to the latest version of npm.
 npm install -g npm@latest
 ```
 
-[Click Here!](./npm/the-npm) to jump to NPM page now.
+[Click Here!](../npm/the-npm) to jump to NPM page now.
 
 ### yarn and pnpm
 
@@ -51,11 +51,13 @@ to upgrade to the latest stable version of yarn...
 yarn set version stable
 ```
 
-I have `yarn` on my system and use it from time-to-time. You may also want to try-out `pnpm`...
+You may also want to give `pnpm` a try...
 
 ```bash
 npm install -g pnpm
 ```
+
+I did try `yarn` in my work, but returned and have since stuck to the original package manager  **`npm`**...
 
 ## Install the CLI
 

@@ -1,4 +1,3 @@
 # Website 
 
-
-[Open Site](docs/intro.md)
+[Open Site](https://gajendhir.github.io/rn-notes)

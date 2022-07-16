@@ -65,26 +65,26 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Introduction',
             position: 'left',
-            label: 'Intro',
+            label: 'Introduction',
           },          
           {
             type: 'doc',
             docId: 'basics/the-env',
             position: 'left',
-            label: 'Env',
+            label: 'Environment',
           },
           {
             type: 'doc',
-            docId: 'basics/npm/the-npm',
+            docId: 'npm/the-npm',
             position: 'left',
-            label: 'npm',
+            label: 'Packages',
           },
-          {
-            to: '#', 
-            label: 'Blog', 
-            position: 'left'},
+          // {
+          //   to: '#', 
+          //   label: 'Blog', 
+          //   position: 'left'},
           {
             href: 'https://github.com/gajendhir/rnnotes',
             label: 'GitHub',
@@ -99,28 +99,32 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Intro',
-                to: '/docs/intro',
+                label: 'Dev Env',
+                to: '/docs/category/development-environment',
+              },
+              {
+                label: 'Packages',
+                to: '/docs/category/package-manager',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: '#',
-              },
-              {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: '#',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: '#',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: '#',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [

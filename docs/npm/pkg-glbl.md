@@ -1,10 +1,15 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Installed Globally
+# Global Packages
 
-Packages installed globally offer CLI-commands to maintain the project and the packages in your project.  
+Packages installed globally offer CLI-commands to maintain the project and the packages in your project...
+
+* [react-native-rename](#react-native-rename), and
+* [npm-check-updates](#npm-check-updates)
+
+are two such packages that are part of my system.
 
 ## react-native-rename
 
@@ -20,13 +25,15 @@ This is useful if you want to rename the package.
 react-native-rename <newname> -b <bundleIdentifier>
 ```
 
+This works fine if you had started your package with `react-native init` command.
+
 ```bash title="Example"
 react-native-rename myapp -b info.dataspec.myapp
 ```
 
 :::info Note
 
-This package does not attempt to properly rename build artifacts such as ios/build or Cocoa Pod installation targets. After renaming your project you should clean, build, and reinstall third party dependencies to get it running properly with the new name.
+This package does not attempt to properly rename build artifacts such as ios/build or Cocoa Pod installation targets. After renaming your project you should *clean, build, and reinstall third party dependencies* to get it running properly with the new name.
 
 :::
 
@@ -58,16 +65,17 @@ ncu -u
 
 :::caution Commit and Push before Update
 
-Commit and Push to your version control before you update any package. Some packages require you to update or change your code to work properly.
+Commit and Push to your version control before you update any package. 
+Some packages require code rewrites to work properly.
 
 :::
 
-This will update the versions of the packages listed in the `package.json` with the [version identifier](../basics/npm/pkg-ver) of the latest available update.
+This will update the versions of the packages listed in the `package.json` with the [version identifier](../npm/pkg-ver) of the latest available update.
 
 **`ncu`** supports a wide choice of `options` to fine-tune the way ncu checks for updates. Check [npm-check-updates documentation](https://www.npmjs.com/package/npm-check-updates) for more details
 
 :::info
 
-you should clean, build, and reinstall third party dependencies to get it running properly with the new updated packages
+You should clean, build, and reinstall third party dependencies to get it running properly with the new updated packages
 
 ::::
