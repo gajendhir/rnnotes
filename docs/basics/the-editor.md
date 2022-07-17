@@ -51,3 +51,12 @@ Some other extension that I have VS Code include...
 
 * **vscode-icons** by VSCode Icons Team
 * **Prettier** by Prettier
+
+## git - Source Control Manager
+
+**git** source control management is built into vsCode. It integrates with my GitHub account and makes it easy to manage and share my source code.
+
+![git-options](img/VsCode-git.png)
+
+It allows me to carry out my git tasks either through its interactive menu or by typing them in the terminal.
+

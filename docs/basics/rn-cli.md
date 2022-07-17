@@ -22,7 +22,7 @@ npm install -g react-native-cli
 
 Android Studio is Android's official IDE and can be downloaded from [developer.android.com](https://developer.android.com/studio/index.html).
 
-At the time of installation make certain to select the following components...
+At the time of installation select the following components...
 
 * Android SDK
 * Android SDK Platform
@@ -77,4 +77,4 @@ Some software automatically set these environment variables at the time of insta
 
 ## The Editor
 
-Finally, you need to prepare your [editor or IDE](the-editor.md) for react-native.
+Finally, you need to prepare your [editor or IDE](the-editor) for react-native.
