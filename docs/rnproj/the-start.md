@@ -64,7 +64,7 @@ At the command prompt, navigate to your project folder and run the command
 code .
 ```
 
-where . is the (current) path in which vscode is to be start.
+awhere . is the (current) path in which vscode should start.
 
 ### From GUI
 
