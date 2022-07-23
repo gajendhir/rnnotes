@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Editor and Extensions
 
-Technically speaking, you need a simple text editor for development in react-native. But, using a dedicated programming editor changes the way you can manage multi-file projects.
+Technically speaking, you need only a simple text editor for development in react-native. But, using a dedicated programming editor changes the way you can manage multi-file projects.
 
 ## Visual Studio Code
 
@@ -45,12 +45,12 @@ For, my Python projects I have...
 * **Python** from Microsoft
 * **Pylance** from Microsoft
 
-There is a huge list of extensions to select from. If you are up to it, VSCode comes with an [Extension API](https://code.visualstudio.com/api), that you can use to create your own extension.
-
 Some other extension that I have VS Code include...
 
 * **vscode-icons** by VSCode Icons Team
 * **Prettier** by Prettier
+
+There is a huge list of extensions to select from. If you are up to it, VSCode comes with an [Extension API](https://code.visualstudio.com/api), that you can use to create your own extension.
 
 ## git - Source Control Manager
 

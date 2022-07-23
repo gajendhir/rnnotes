@@ -64,7 +64,7 @@ At the command prompt, navigate to your project folder and run the command
 code .
 ```
 
-awhere . is the (current) path in which vscode should start.
+where ` . ` is the (current) path in which vscode should start.
 
 ### From GUI
 
@@ -102,28 +102,31 @@ jest
 
 ## Initiate Debug
 
-Extension required **React Native Tools**
+VSCode allows code steps with features like watch, breakpoints, variables and call-stacks.
+
+Make sure the extension required **React Native Tools** as been installed in vscode.
 
 Select the Run View (Ctrl+Shift+D).
 
+If the debugger is not configured in your project, click on *create a `launch.json` file*.
+
 ![VsCodeUnSet](img/RunView.png)
 
-If the `launch.json` is not set you will get the option to create one.
+In the command palette, Select Debugger as **React Native** and then pick the debug configuration as applicable
+- *Debug Application*, or 
+- *Debug Application Hermes - Experimental*  
 
-![VsCodeSet](img/RunViewSet.png)
-
-If the `launch.json` is set you can click ![Settings](img/Settings.png) in the View to select the debugger.
-
-In the command palette, Select Debugger as React Native and select **Debug Application** or **Debug Application Hermes - Experimental** as applicable. I prefer to work with the `hermes enabled` environment (we shall see how this is done [below](./first-step)) and set my debugger to _Debug Application Hermes - Experimental_.
+I have been working in React Native with the `hermes enabled` (we shall see how this is done [below](./first-step)) and set my debugger to __Debug Application Hermes - Experimental__.
 
 To start debugging - Select Debug ... from the drop-down and click Run or use the keyboard shortcut `[F5]` to start.
 
-VSCode allows code steps with features like watch, breakpoints, variables and call-stacks.
+![VsCodeSet](img/RunViewSet.png)
+
+If the `launch.json` is already set, you can click ![Settings](img/Settings.png) icon to make changes. You may even set more than one debug configuration for your project and then select from those when debugging.
 
 ## enable Hermes
 
 **Hermes** is an open-source javascript engine optimized for React Native. At this time Hermes is an opt-in React Native feature you have to enable it.
-
 
 Open file `androd/app/build.gradle`.
 
@@ -135,7 +138,7 @@ and make **`enableHermes: true`**.
 
 You will have to clean and rebuild your app.
 
-```bash clean and rebuild
+```bash title="Clean and Rebuild"
 cd android
 gradlew clean
 cd ..

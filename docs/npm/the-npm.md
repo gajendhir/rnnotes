@@ -10,7 +10,8 @@ npm = Node Package Manager
 
 **[npmjs.org or npmjs.com](https://npmjs.com)** is the world's largest Software Registry used widely by open source software developers to share software. It has more than 800,000 packages.
 
-**npm** is free to use. Public software pacakages can be downloaded and installed from the registry without any registration or login.
+**npm** is free to use. Public software pacakages can be downloaded and installed from the registry without any registration or login. You may also choose to share your package with others - publicly or privately.
+
 
 ## Command-Line Client
 
@@ -28,10 +29,11 @@ The npm command line client is installed alongwith [Node.js](../basics/the-env#n
 
 You need a package manager for managing the packages that are included into your react-native project.
 
+---
+
 ## Package Management
 
-The npm system uses `package.json` file that holds the information about your project.
-Along with all the information about your project, this is files where `npm` stores the names and versions of the packages being used in your project.
+The npm system uses `package.json` file to holds information about the project. Along with all the information about your project, it contains the names and versions of the packages being used in your project.
 
 ```json title="structure of a typical package.json"
 {
@@ -85,6 +87,6 @@ Given here, the version of `react-native` in the current project is
 
 You may specify the [range of versions](pkg-ver) that may be installed in the project by `npm` to allow the [`npm update`](npm-cmd#upgrade--update-a-package) to install to the latest version possible.
 
-### Sections of package.json
+### More on package.json
 
 Visit [package.json](https://docs.npmjs.com/cli/v8/configuring-npm/package-json) - for a detailed discussion on the specifics of the file. This information will be more significant if you decide to develop and publish your own package on the [npm software registry](the-npm#software-registry).

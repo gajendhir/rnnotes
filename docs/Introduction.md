@@ -2,14 +2,13 @@
 sidebar_position: 1
 ---
 
-## Layout
-
-Section of this site.
+## Site Layout
 
 * [Introduction](/docs/Introduction)
 * [Development Environment](/docs/category/development-environment)
 * [Package Manager](/docs/category/package-manager)
 * [Git Commands](#)
+* [Start a new project](/docs/category/react-native-project)
 * [Build Bundles and Apks](#)
 
 # Introduction

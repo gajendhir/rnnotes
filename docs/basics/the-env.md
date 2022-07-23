@@ -16,7 +16,7 @@ My operating system is Windows and I chose to use the MSI installer. The install
 
 ### Upgrade Node
 
-To upgrade to the latest version of node, simply download the new version from the [nodejs](https://nodejs.org) site and install it. It knows what to do with your previous installation and replaces it with the new version.
+To upgrade to the latest version of node, simply download the new version from the [nodejs](https://nodejs.org) site and install it. If it finds `node` on your computer, it will be upgraded, otherwise node will installed.
 
 ## Package Managers
 
@@ -57,7 +57,11 @@ You may also want to give `pnpm` a try...
 npm install -g pnpm
 ```
 
-I did try `yarn` in my work, but returned and have since stuck to the original package manager  **`npm`**...
+:::note 
+
+I did try out `yarn`, but have stuck to using  **`npm`** on a regular basis.
+
+:::
 
 ## Install the CLI
 

@@ -4,9 +4,9 @@ sidebar_position: 5
 
 # npm Commands
 
-:::note
+:::caution
 
-I shall limit this section to the commands I use regularly in the react-native projects. For a full list of commands see [npmjs documentation](https://docs.npmjs.com/cli/v8/commands/npm-install).
+Here are some npm command I use regularly in react-native development. For a full list of commands see [npmjs documentation](https://docs.npmjs.com/cli/v8/commands/npm-install).
 
 :::
 
@@ -66,6 +66,8 @@ If you do not specify any package name for install, the command will install all
 npm install
 ```
 
+To reinstall all the npm packages in your project, Delete the `node_modules` folder from your project folder and execute `npm install`.
+
 ### List of Packages
 
 To get a list of packages installed in your project or installed globally.
@@ -103,22 +105,34 @@ Adding the flag -g will update the packages installed globally.
 npm upgrade -g <package-name>
 ```
 
+:::caution
+
+Be careful when you upgrade a package, it is quite possible that its dependencies may not yet be ready. It could lead to some warnings and errors at build time.
+
+I prefer to upgrade one package at a time and that too only when there is no pressing delivery scheduled.
+
+:::
+
 ## npx - npm exec
 
 npx is used to run a command from a local or remote npm package. for eg.
 
-```bash
+```bash title="Start a new react-native project using the default template"
 npx react-native init proj
 ```
 
 or
 
-```bash
+```bash title="Run the current project for Android"
 npx react-native run-android
 ```
 
-## Other Commands
+```bash title="Run the current project for iPhone"
+npx react-native run-ios
+```
 
-There are many commands that allow you to publish and maintain packages on the [npm registry](the-npm#software-registry).
+## More Commands
+
+There are many more commands that allow you to login, publish and maintain packages on the [npm registry](the-npm#software-registry).
 
 For a complete list see [CLI Commands](https://docs.npmjs.com/cli/v8/commands).
