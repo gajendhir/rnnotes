@@ -49,7 +49,7 @@ and the configuration files...
 the react-native source files...
 
 | Files | Description |
-|:---|:---
+|:---|:---|
 | **`index.js`** | The Entry Point for the react-native app |
 | **`app.json`** | File imported by index.js |
 | **`App.js`** | The file with the react-native component that will be visible when the app starts |
@@ -83,13 +83,15 @@ I have it pinned to both - TaskBar and Start.
 Connect your android phone, and run the command
 
 ```bash title="For Android"
-react-native run-android
+npx react-native run-android
 ```
+
+![Run Android](img/runAndroid.jpg)
 
 To run on the iphone, the command is
 
 ```bash title="For IOS"
-react-native run-ios
+npx react-native run-ios
 ```
 
 To run the test just type in `jest`
@@ -112,8 +114,38 @@ If the `launch.json` is not set you will get the option to create one.
 
 If the `launch.json` is set you can click ![Settings](img/Settings.png) in the View to select the debugger.
 
-In the command palette, Select Debugger as React Native and select **Debug Application** or **Debug Application Hermes Experimental** as applicable.
+In the command palette, Select Debugger as React Native and select **Debug Application** or **Debug Application Hermes - Experimental** as applicable. I prefer to work with the `hermes enabled` environment (we shall see how this is done [below](./first-step)) and set my debugger to _Debug Application Hermes - Experimental_.
 
 To start debugging - Select Debug ... from the drop-down and click Run or use the keyboard shortcut `[F5]` to start.
 
 VSCode allows code steps with features like watch, breakpoints, variables and call-stacks.
+
+## enable Hermes
+
+**Hermes** is an open-source javascript engine optimized for React Native. At this time Hermes is an opt-in React Native feature you have to enable it.
+
+
+Open file `androd/app/build.gradle`.
+
+![build.gradle](./img/buildgradle.png)
+
+and make **`enableHermes: true`**.
+
+![Enable Hermes](./img/EnableHermes.png)
+
+You will have to clean and rebuild your app.
+
+```bash clean and rebuild
+cd android
+gradlew clean
+cd ..
+npx react-native run-android
+```
+
+![Run Hermes](./img/runHermes.jpg)
+
+There are additional settings if you are using ProGuard.
+
+## Next Steps
+
+So far, we have just set our environment and prepared our editor for this project. Now we are ready to start working with the code. Let us proceed to the [first step](./first-step).
